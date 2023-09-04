@@ -1,0 +1,134 @@
+/* removing defaults */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* generic setting for body style*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d9dcd6;
+}
+
+
+header div h1 {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: rgb(189, 189, 189);
+    transition: color .3s ease-in-out;
+}
+
+a:hover {
+    color:white;
+    font-size: 125%;   
+}
+
+.hero {
+    border-style: solid;
+    border-color: #13293d;
+    border-width: 45px 10px 10px 10px;
+    background-color: rgb(184, 170, 153);
+}
+
+aside {
+    width: 200px;
+    float: left;
+    background-color: #d9dcd6;
+    height: 100%;
+    font-size: 30px;
+    margin-right:30px;
+}
+
+.about-me {
+    display: flex;
+    padding: 30px 0px 30px 10px;
+    border-left: 5px #13293d solid;
+    margin-bottom: 20px;
+  
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    min-width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: 5px #13293d solid;
+    padding: 0 0 0 10px;
+    margin-bottom: 20px;
+}
+
+  .card header {
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  .card header:hover {
+    font: size 40px;
+    background-color: rgb(143, 216, 245);
+    color: black;;
+  }
+
+  .card p {
+    background: #13293d;
+    color: #fff;
+    padding-left: 20px;
+  }
+  
+  .card p:hover {
+    font: size 30px;
+    background-color: rgb(143, 216, 245);
+    color: black;
+  }
+
+  .card img {
+    width: 600px;
+    height: 480px;
+    border: solid 10px #13293d
+  }
+
+  .card img:hover {
+    filter:sepia();
+  }
+ 
+footer {
+    display:flex;
+    align-items: flex-start;
+    background-color:#13293d;
+    color: white;
+    height: 60px;
+    border-left: 5px #13293d solid;
+    padding: 0 0 0 10px
+}
+
+footer div ul li {
+    display:inline-block;
+    border-left: 5px #13293d solid;
+    padding-right: 40px;
+}
